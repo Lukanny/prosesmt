@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    gap: 1rem;
+    background-color: green;
+    justify-content: flex-end;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
