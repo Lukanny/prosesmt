@@ -58,15 +58,23 @@ main {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    background-color: ;
+}
+
+.partners {
+    text-align: center;
 }
 
 .hero-images-container {
-    max-width: 45%;
-    column-count: 3;
-    column-gap: 1rem;
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    justify-content: space-evenly;
 }
 
-.hero-images-container > figure > img{
-    width: 100%;
-    border-radius: 0.5rem;
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-flow: wrap;
 }
