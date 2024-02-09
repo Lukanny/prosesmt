@@ -1,94 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROSESMT - Soluções Integradas no Trabalho</title>
-    <meta name="description" content="">
-    <link rel="stylesheet" type="text/css" href="./style.css"/>
-</head>
-<body>
-    <header>
-        <nav>
-            <span>
-                <a href="./index.html"><img class="logo" src="./assets/logos/Group 1 (2).png"/></a>
-            </span>
-            <ul class="menu">
-                <li><a href="./index.html">Home</a></li>
-                <li><a>Sobre</a></li>
-                <li><a>Equipamentos</a></li>
-                <li><a>Serviços</a></li>
-                <li><a>Cursos</a></li>
-                <li><a>Orçamento</a></li>
-                <li><a>Contato</a></li>
-                <li><a>Portfólio</a></li>
-            </ul>
-            <a>Portal do Cliente</a>
-        </nav>
-    </header>
-    <main class="content">
-        <section></section>
-        <section class="hero">
-            <header class="hero-content">
-                <h1>PROSESMT - Soluções Integradas no Trabalho</h1>
-                <h2>Nossa missão é oferecer soluções em segurança do trabalho de forma simples e eficiente, facilitando a rotina de profissionais e empresas.</h2>
-                <p>PROSESMT Fisioterapia do Trabalho, Consultoria Ergonômica e Ocupacional é uma empresa prestadora de serviços, fundada em 2007 na Cidade de Manaus, Estado do Amazonas para atender o segmento de assessoria e consultoria na área de Medicina do Trabalho, Engenharia de Segurança, Fisioterapia do Trabalho, Ergonomia e Qualidade de Vida ligado à Prevenção e Saúde Ocupacional.</p>
-            </header>
-            <div>
-                <span class="partners"><h2>Alguns dos nossos clientes</h2></span>
-                <div class="hero-images-container">
-                    <figure><img src="./assets/logos/ambev_logo.png"/></figure>
-                    <figure><img src="./assets/logos/bic_logo.png"/></figure>
-                    <figure><img src="./assets/logos/cafe_manaus_logo.png"/></figure>
-                    <figure><img src="./assets/logos/copag_logo.png"/></figure>
-                    <figure><img src="./assets/logos/flint_group_logo.png"/></figure>
-                    <figure><img src="./assets/logos/jutal_logo.png"/></figure>
-                    <figure class="mat_prim"><img src="./assets/logos/mat_prim_logo.png"/></figure>
-                    <figure><img src="./assets/logos/quimica_credie_logo.png"/></figure>
-                    <figure><img src="./assets/logos/rai_concentrados_logo.png"/></figure>
-                    <figure><img src="./assets/logos/santo_antonio_logo.png"/></figure>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/style.css"/>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav class="navbar navbar-expand-lg py-3 sticky-top bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="logo" src="assets/logos/Group 1 (2).png" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Equipamentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Serviços</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Cursos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Orçamento</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Portfólio</a>
+            </li>
+          </ul>
+          <button class="btn btn-primary ms-lg-3">Portal do Cliente</button>
+        </div>
+      </div>
+    </nav>
+    <!--NAVBAR-->
+
+    <!--HERO -->
+    <div class="hero vh-100 d-flex align-items-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-7 mx-auto text-center">
+                    <h1 class="display-4 text-white">Soluções em Segurança e Fisioterapia do Trabalho</h1>
+                    <p class="text-white my-3">A PROSESMT Fisioterapia do Trabalho, Consultoria Ergonômica e Ocupacional é uma empresa prestadora de serviços, fundada em 2007 na Cidade de Manaus, Estado do Amazonas para atender o segmento de assessoria e consultoria na área de Medicina do Trabalho, Engenharia de Segurança, Fisioterapia do Trabalho, Ergonomia e Qualidade de Vida ligado à Prevenção e Saúde Ocupacional.</p>
+                    <a href="#" class="btn me-3 btn-primary">Entre em contato</a>
+                    <a href="#" class="btn btn-outline-light">Portfólio</a>
                 </div>
-            </div>
-        </section>
-        <section>
-            <header>
-                <span class="partners"><h2>Nossos Serviços</h2></span>
-            </header>
-            <div class="services">
-                <div>
-                    <header>
-                        <h3>Medicina do Trabalho</h3>
-                    </header>
-                </div>
-                <div>
-                    <header>
-                        <h3>Segurança do Trabalho</h3>
-                    </header>
-                </div>
-                <div>
-                    <header>
-                        <h3>Fisioterapia do Trabalho</h3>
-                    </header>
-                </div>
-                <div>
-                    <header>
-                        <h3>Sistema de Gestão SESMT</h3>
-                    </header>
-                </div>
-                <div>
-                    <header>
-                        <h3>Suporte Jurídico</h3>
-                    </header>
-                </div>
-                <div>
-                    <header>
-                        <h3>Meio Ambiente</h3>
-                    </header>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-    </footer>
-</body>
+        </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
