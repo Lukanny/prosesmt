@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Arimo:ital,wght@0,400..700;1,400..700&family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --primary: #09112d;
+    --secondary: #154161;
+    --button: #168916;
+    --body: #cecece;
+    --text: #ffffff;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.logo{
+    width: 220px;
+}
+
+.contact-button {
+    background-color: var(--button) !important;
+}
+
+.hero {
+    background-image: url(../assets/images/background.png);
+    background-position: center;
+    background-size: cover;
+}
