@@ -130,89 +130,19 @@ a {
     min-height: 500px;
 }
 
-.project {
+.hero-5 {
+    background-image: url(../assets/images/contact.png);
+    background-position: center;
+    background-size: cover;
     position: relative;
-    overflow: hidden;
+    z-index: 2;
 }
 
-.project .overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(21, 20, 51, 0.8);
-    padding: 30px;
-    display: flex;
-    align-items: flex-end;
-    transition: all 0.4s ease;
-    opacity: 0;
+.hero-text-5 {
+    font-family: "Montserrat" !important;
+    font-weight: bold !important;
 }
 
-.project img {
-    transition: all 0.4s ease;   
-}
-
-.project:hover .overlay{
-    opacity: 1;
-}
-
-.project:hover img {
-    transform: scale(1.1);
-}
-
-
-.pricing i {
-    font-size: 20px;
-    color: var(--primary);
-}
-
-.pricing ul li {
-    margin-top: 8px;
-}
-
-.team-member img {
-    width: 125px;
-    height: 125px;
-    border-radius: 100px;
-}
-
-
-.social-icons {
-    display: flex;
-    justify-content: center;
-}
-.social-icons a {
-    width: 34px;
-    height: 34px;
-    background-color: var(--primary);
-    border-radius: 2px solid var(--primary);
-    color: var(--white);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100px;
-    margin-left: 5px;
-    transition: all 0.4s ease;
-    border: 2px solid var(--primary);
-}
-
-.social-icons a:hover {
-    color: var(--primary);
-    background-color: transparent;
-    border-color: var(--primarys);
-}
-
-
-form input.form-control {
-    height: 56px;
-}
-
-form .form-control {
-    border: transparent;
-    border-radius: 0;
-    background-color: rgba(0,0,0,0.02);
-}
 
 
 .footer-top {
