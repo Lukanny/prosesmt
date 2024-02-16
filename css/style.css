@@ -20,17 +20,15 @@ a {
 
 .nav-link {
     color: var(--text) !important;
-    font-size: 2rem !important;
     margin: 20px;
 }
 
 .logo {
-    width: 350px;
+    width: 300px;
 }
 
 .contact-button {
     background-color: var(--button) !important;
-    font-size: 2rem !important;
 }
 
 .hero {
@@ -45,9 +43,6 @@ a {
     background-size: cover;
 }
 
-.why-choose-us-header {
-    font-size: 4.5rem;
-}
 
 .who-we-are {
     background-image: url(../assets/images/about_us.png);
@@ -55,9 +50,6 @@ a {
     background-size: cover;
 }
 
-.who-we-are-header {
-    font-size: 5rem;
-}
 
 .area-of-business {
     background-image: url(../assets/images/image4.svg);
@@ -65,17 +57,21 @@ a {
     background-size: cover;
 }
 
-.area-of-business-header {
-    font-size: 5rem;
-}
-
-.area-of-business-text {
-    font-size: 1.48rem !important;
-}
+@media(max-width: 768px) { 
+    .small { 
+      display: none; 
+    }
+  }
 
 .our-services {
     background-color: var(--secondary)
 }
+
+@media(max-width: 576px) { 
+    .extra-small { 
+      display: none; 
+    }
+  }
 
 .contact-us {
     background-image: url(../assets/images/image2.svg);
