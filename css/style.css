@@ -50,7 +50,7 @@ a {
 }
 
 .who-we-are {
-    background-image: url(../assets/images/image6.svg);
+    background-image: url(../assets/images/about_us.png);
     background-position: center;
     background-size: cover;
 }
@@ -67,4 +67,18 @@ a {
 
 .area-of-business-header {
     font-size: 5rem;
+}
+
+.area-of-business-text {
+    font-size: 1.48rem !important;
+}
+
+.our-services {
+    background-color: var(--secondary)
+}
+
+.contact-us {
+    background-image: url(../assets/images/image2.svg);
+    background-position: center;
+    background-size: cover;
 }
