@@ -1,0 +1,70 @@
+:root {
+    --primary: #09112d;
+    --secondary: #154161;
+    --button: #168916;
+    --body: #cecece;
+    --text: #ffffff;
+}
+
+body {
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: var(--primary);
+}
+
+.nav-link {
+    color: var(--text) !important;
+    font-size: 2rem !important;
+    margin: 20px;
+}
+
+.logo {
+    width: 350px;
+}
+
+.contact-button {
+    background-color: var(--button) !important;
+    font-size: 2rem !important;
+}
+
+.hero {
+    background-image: url(../assets/images/image1.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.why-choose-us {
+    background-image: url(../assets/images/image4.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.why-choose-us-header {
+    font-size: 4.5rem;
+}
+
+.who-we-are {
+    background-image: url(../assets/images/image6.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.who-we-are-header {
+    font-size: 5rem;
+}
+
+.area-of-business {
+    background-image: url(../assets/images/image4.svg);
+    background-position: center;
+    background-size: cover;
+}
+
+.area-of-business-header {
+    font-size: 5rem;
+}
