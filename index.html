@@ -3,266 +3,226 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>PROSESMT - Soluções Integradas No Trabalho</title>
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./css/style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
   </head>
   <body>
-
-    <!--NAVBAR-->
-    <nav class="navbar navbar-expand-lg ">
-        <div class="container">
-            <div class="d-flex">
-                <a class="navbar-brand" href="#">
-                    <img  class="logo" src="./assets/images/logo.png" alt="PROSESMT logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                    <ul class="navbar-nav navbar-dark">
-                        <li class="nav-item">  
-                            <a class="nav-link" href="#">QUEM SOMOS</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">ATUAÇÃO</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">NOSSOS SERVIÇOS</a>
-                        </li>
-                    </ul>
-                    <button class="btn btn-primary contact-button ms-5">FALE CONOSCO</button>
-                </div>
+    
+    <nav class="navbar navbar-dark navbar-expand-lg sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img src="./assets/images/image5.svg" class="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#hero">Quem Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#area-of-business">Atuação</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Nossos Serviços</a>
+              </li>
+            </ul>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center ms-auto">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3 text-uppercase contact-button">Fale Conosco</button>
             </div>
+          </div>
         </div>
     </nav>
-    <!--//NAVBAR-->
 
-    <!--HERO-->
-    <section>
-        <div class="hero vh-100 d-flex align-items-center">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-7 text-center">
-                        <h3 class="hero-text text-white">Elaboração de Programas de SST, Gerenciamento do envio dos eventos no E-SOCIAL, Laudos Técnicos das Normas Regulamentadores do MTE.
-                        </h3>
-                        <a href="#" class="btn btn-primary contact-button">ENTRE EM CONTATO E SAIBA MAIS
-                        </a>
-                    </div>
-                </div>
+    <div class="px-4 py-5 text-center hero vh-100">
+        <div class="col-lg-5 me-auto">
+          <h2 class="lead mb-4 text-white display-5 text-center mb-5">
+            Elaboração de Programas de SST, Gerenciamento do envio dos eventos no E-SOCIAL, Laudos Técnicos das Normas Regulamentadoras do MTE.
+          </h2>
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center align-items-end">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3 contact-button mt-5">Entre em contato e saiba mais</button>
+          </div>
+        </div>
+    </div>
+
+    <div class="px-4 py-5 text-center why-choose-us vh-100">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="text-white text-center text-wrap py-5 why-choose-us-header">Porque escolher a PROSESMT Soluções Integradas ao Trabalho?</h1>
+            </div>
+            <div class="col-lg-4 mx-auto">
+                <h2 class="text-white text-center py-5">Atuação Nacional</h2>
+                <h4 class="text-white text-center py-5">Atendemos em todo o Brasil</h4>
+            </div>
+            <div class="col-lg-4 mx-auto">
+                <h2 class="text-white text-center py-5">Capacidade Operacional</h2>
+                <h4 class="text-white text-center py-5">Documentação, treinamento e gestão de acordo com as normas vigentes</h4>
+            </div>
+            <div class="col-lg-4 mx-auto">
+                <h2 class="text-white text-center py-5">Suporte Eficiente</h2>
+                <h4 class="text-white text-center py-5">Atendimento ágil e humanizado</h4>
             </div>
         </div>
-    </section>
-    <!--//HERO-->
+    </div>
 
-    <!-- WHY CHOOSE US?-->
-    <section id="why-choose-us">
-        <div  class="hero-2 vh-100">
-            <div class="container">
-                <div class="row mb-5">
-                    <div class="col-md-12 mx-auto text-center">
-                        <h1 class="hero-text-2 text-white">PORQUE ESCOLHER A PROSESMT SOLUÇÕES INTEGRADAS AO TRABALHO?</h1>
-                    </div>
+    <div class="px-4 py-5 text-center who-we-are vh-100">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="py-2 who-we-are-header">Quem somos?</h1>
+            </div>
+            <div class="col-lg-6 mx-auto">
+                <div class="container-fluid">
+                    <p class="lead mb-4 text-center">A PROSESMT é uma empresa especializada nas áreas de elaboração de programas de SST, gerenciamento do envio dos eventos no E-SOCIAL, laudos técnicos das normas regulamentadoras e projetos de engenharia mecânica e elétrica. 
+                        Composta por uma equipe competente e com experiência garantindo assim projetos completos completos e seguros para seus clientes.
+                        Somos o empreendimento que trabalha com o objetivo de criar soluções para os desafios enfrentados por quem nos busca, alavancando empreendimentos e garantindo a segurança nos processos produtivos.
+                      </p>
                 </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="reason">
-                            <h5 class="mt-4 mb-2 hero-text-2 text-white text-center fs-2">Atuação Nacional</h5>
-                            <p class="hero-text-2 text-white text-center">Atendemos em todo o Brasil</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="reason">
-                            <h5 class="mt-4 mb-2 hero-text-2 text-white text-center fs-2">Capacidade Operacional</h5>
-                            <p class="hero-text-2 text-white text-center">Documentação, treinamento e gestão de acordo com as normas vigentes</p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-6">
-                        <div class="reason">
-                            <h5 class="mt-4 mb-2 hero-text-2 text-white text-center fs-2">Suporte Eficiente</h5>
-                            <p class="hero-text-2 text-white text-center">Atendimento ágil e humanizado</p>
-                        </div>
-                    </div>
-                </div>
+
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3 contact-button">Entre em contato e saiba mais</button>
+              </div>
             </div>
         </div>
-    </section>
-    <!-- //WHY CHOOSE US?-->
+    </div>
 
-    <!-- ABOUT US -->
-    <section>
-        <div class="hero-3 vh-100 d-flex align-items-start">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h3 class="hero-text-3 fs-1">QUEM SOMOS?
-                        </h3>
-                        <p class="text-start fs-2">
-                            A PROSESMT é uma Empresa especializada nas áreas de elaboração de Programas de SST, Gerenciamento do envio dos eventos no E-SOCIAL, Laudos Técnicos das normas regulamentadoras e Projetos de Engenharia Mecânica e elétrica.
-                            Composta por uma equipe competente e com experiência garantindo assim projetos completos e seguros para seus clientes. 
-                            Somos o empreendimento que trabalha com o objetivo de criar soluções para os desafios enfrentados por quem nos busca, alavancando empreendimentos e garantindo a segurança nos processos produtivos.
-                        </p>
-                        <a href="#" class="btn btn-primary contact-button my-5">ENTRE EM CONTATO E SAIBA MAIS
-                        </a>
-                    </div>
+    <div class="px-4 py-5 text-center who-we-are vh-100">
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="py-2 who-we-are-header">Quem somos?</h1>
+            </div>
+            <div class="col-lg-6 mx-auto">
+                <div class="container-fluid">
+                    <p class="lead mb-4 text-center">A PROSESMT é uma empresa especializada nas áreas de elaboração de programas de SST, gerenciamento do envio dos eventos no E-SOCIAL, laudos técnicos das normas regulamentadoras e projetos de engenharia mecânica e elétrica. 
+                        Composta por uma equipe competente e com experiência garantindo assim projetos completos completos e seguros para seus clientes.
+                        Somos o empreendimento que trabalha com o objetivo de criar soluções para os desafios enfrentados por quem nos busca, alavancando empreendimentos e garantindo a segurança nos processos produtivos.
+                      </p>
                 </div>
+
+              <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3 contact-button">Entre em contato e saiba mais</button>
+              </div>
             </div>
         </div>
-    </section>
-    <!--//ABOUT US-->
+    </div>
 
-    <!-- AREA OF BUSINESS -->
-    <section>
-        <div class="hero-4 vh-100">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <h1 class="text-center hero-text-3 text-white">Atuação</h1>
-                    </div>
-                    <div class="col-lg-6">
-                        <p class="text-white text-start fs-4">
-                            Sediada estrategicamente em Manaus, nossa empresa de gestão de saúde e segurança do trabalho é pioneira em promover ambientes laborais seguros em todo o Brasil. Com expertise regional e alcance nacional, oferecemos soluções customizadas que elevam os padrões de segurança ocupacional. Nossa missão é salvaguardar vidas, otimizar operações e assegurar o cumprimento de normas em qualquer canto do país. Confie em nossa experiência para tornar seu local de trabalho mais seguro e eficiente, onde quer que sua empresa esteja.
-                        </p>
-                    </div>
-                    <div class="col-lg-6 brazil-map"></div>
+    <div class="px-4 py-5 area-of-business vh-100">
+        <div class="col-lg-12">
+            <h1 class="text-center area-of-business-header">Atuação</h1>
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+                <div class="col-10 col-sm-8 col-lg-6">
+                  <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
                 </div>
-            </div>
+                <div class="col-lg-6">
+                  <p class="lead text-start">
+                      Sediada estrategicamente em Manaus, nossa empresa de gestão de saúde e segurança do trabalho é pioneira em promover ambientes laborais seguros em todo o Brasil com expertise regional e alcance nacional. Oferecemos soluções costumizadas que elevam os padrões de segurança ocupacional. Nossa missão é salvaguardar vidas, otimizar operações e assegurar o cumprimento de normas em qualquer canto do país. Confie em nossa experiência para tornar seu local de trabalho mais seguro e eficiente, onde quer que sua empresa esteja.
+                  </p>
+                  <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  </div>
+                </div>
+              </div>
         </div>
-    </section>
-    <!-- //AREA OF BUSINESS -->
+    </div>
 
-    <!-- SERVICES -->
-    <section id="services">
-        <div class="container">
-            <div class="col-lg-12 text-center">
-                <h1 class="py-5">Nossos Serviços</h1>
+    <div class="container px-4 py-5" id="icon-grid">
+        <h1 class="pb-2 border-bottom text-center">Nossos Serviços</h1>
+    
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-5">
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#bootstrap"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
             </div>
-            <div class="row row-cols-3">
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
-                <div class="col-lg-4">
-                    <h1>medicina do trabalho</h1>
-                </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#cpu-fill"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
             </div>
-            <div class="col-lg-12 text-center">
-                <a href="#" class="btn btn-primary contact-button my-5">ENTRE EM CONTATO E SAIBA MAIS
-                </a>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#calendar3"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
             </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#home"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#speedometer2"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#toggles2"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#geo-fill"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            </div>
+          </div>
+          <div class="col d-flex align-items-start">
+            <svg class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" height="1.75em"><use xlink:href="#tools"></use></svg>
+            <div>
+              <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Featured title</h3>
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mx-auto">
+                <button type="button" class="btn btn-primary btn-lg px-4 gap-3 contact-button">Entre em contato e saiba mais</button>
+              </div>
+          </div>
         </div>
-    </section>
-    <!-- SERVICES -->
+    </div>
 
-    <!-- CONTACT US -->
-    <section>
-        <div class="hero-5 vh-100 d-flex align-items-start">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <h3 class="hero-text-5 fs-1 pt-5">Entre em contato!
-                        </h3>
-                        <h4 class="hero-text-5 fs-2 pb-5">Será um prazer atendê-lo:</h4>
-                        <p class="text-center fs-2">
-                            Não hesite na hora que contatar A PROSESMT. 
-                        </p>
-                        <p class="text-center fs-2">
-                            Uma empresa conceituada e que entende do assunto e que realmente possa lhe oferecer as melhores soluções.
-                        </p>
-                        <a href="#" class="btn btn-primary contact-button my-5">ENTRE EM CONTATO E SAIBA MAIS
-                        </a>
-                    </div>
-                </div>
-            </div>
+    <div class="px-4 py-5 text-center">
+        <div class="col-lg-12">
+            <h1>Entre em contato!</h1>
+            <h2>Será um prazer atendê-lo:</h2>
+            <p>Não hesite na hora que contatar A PROSESMT.</p>
+            <p>Uma empresa conceituada e que entendedo assunto e que realmente possa lhe ofecerer as melhores soluções.
+            </p>
         </div>
-    </section>
-    <!--//CONTACT US-->
-
-
-    <footer>
-        <div class="footer-top">
-            <div class="container">
-                <div class="row gy-4">
-                    <div class="col-lg-4">
-                        <img class="logo" src="img/logo-white.svg" alt="">
-                    </div>
-                    <div class="col-lg-2">
-                        <h5 class="text-white">Brand</h5>
-                        <ul class="list-unstyled">
-                            <li><a href="#">QUEM SOMOS</a></li>
-                            <li><a href="#">ATUAÇÃO</a></li>
-                            <li><a href="#">NOSSOS SERVIÇOS</a></li>
-                        </ul>
-                    </div>
-
-                    <div class="col-lg-4">
-                        <h5 class="text-white">Contact</h5>
-                        <ul class="list-unstyled">
-                            <li>Endereço: Rua Comte. Noberto Wongal, 33 - Sala 04 - Conj. Hileia 1 - Bairro: Redenção
-                                CEP: 69.047-095. Manaus - Am</li>
-                            <li>Email: prosesmt@example.com</li>
-                            <li>Telefone: (92) 91234-5678</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+        <div class="col-lg-12 mx-auto">
+          <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+            <button type="button" class="btn btn-primary btn-lg px-4 gap-3 contact-button">Entre em contato e saiba mais</button>
+          </div>
         </div>
-        <div class="footer-bottom py-3">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <p class="mb-0">© 2023 todos os direitos reservados | Designed by<a
-                                href="#"
-                                class="text-white">VINICIUS</a></p>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="social-icons">
-                            <a href="#"><i class="bx bxl-linkedin-square"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>

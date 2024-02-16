@@ -1,12 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,100..900;1,100..900&family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&family=Arimo:ital,wght@0,400..700;1,400..700&family=League+Spartan:wght@100..900&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
 :root {
     --primary: #09112d;
     --secondary: #154161;
     --button: #168916;
     --body: #cecece;
     --text: #ffffff;
-    --box-shadow: 0 8px 22px rgba(0,0,0,0.1);
+}
+
+body {
+    text-transform: uppercase;
 }
 
 a {
@@ -17,148 +18,53 @@ a {
     background-color: var(--primary);
 }
 
-.logo {
-    width: 326px;
-}
-
 .nav-link {
     color: var(--text) !important;
-    font-family: "Archivo Narrow" !important;
-    font-weight: bold !important;
+    font-size: 2rem !important;
+    margin: 20px;
 }
 
-.btn {
-    padding: 14px 18px !important;
-    border-width: 0px !important;
-    border-radius: 20px !important;
+.logo {
+    width: 350px;
 }
 
 .contact-button {
     background-color: var(--button) !important;
-    font-family: "Montserrat" !important;
-    font-weight: bold !important;
+    font-size: 2rem !important;
 }
 
 .hero {
-    background-image: url(../assets/images/background.png);
+    background-image: url(../assets/images/image1.svg);
     background-position: center;
     background-size: cover;
-    position: relative;
-    z-index: 2;
 }
 
-.hero-text {
-    font-family: "Montserrat" !important;
-    font-weight: normal;
-}
-
-.hero::after {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(../assets/images/hero.png);
-    z-index: -1;
-}
-
-
-.hero-2 {
-    background-image: url(../assets/images/background.png);
+.why-choose-us {
+    background-image: url(../assets/images/image4.svg);
     background-position: center;
     background-size: cover;
-    position: relative;
-    z-index: 2;
-    overflow: hidden;
 }
 
-.hero-text-2 {
-    text-transform: uppercase;
-    font-family: "League Spartan" !important;
-    font-weight: bold;
-    padding: 50px;
+.why-choose-us-header {
+    font-size: 4.5rem;
 }
 
-.reason {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 0px;
-    border: white solid;
-    border-radius: 13%;
-    transition: all 0.35s ease;
-}
-
-.reason:hover {
-    box-shadow: none;
-    transform: translateY(5px);
-}
-
-.hero-3 {
-    background-image: url(../assets/images/about_us.png);
+.who-we-are {
+    background-image: url(../assets/images/image6.svg);
     background-position: center;
     background-size: cover;
-    position: relative;
-    z-index: 2;
 }
 
-.hero-text-3 {
-    text-transform: uppercase;
-    font-family: "League Spartan" !important;
-    font-weight: bold !important;
-    padding: 50px;
+.who-we-are-header {
+    font-size: 5rem;
 }
 
-.hero-4 {
-    background-image: url(../assets/images/background.png);
+.area-of-business {
+    background-image: url(../assets/images/image4.svg);
     background-position: center;
     background-size: cover;
-    position: relative;
-    z-index: 2;
 }
 
-.hero-text-4 {
-    font-family: "League Spartan" !important;
-    font-weight: bold !important;
-    padding: 50px;
-}
-
-.brazil-map {
-    background-image: url(../assets/images/logo.png);
-    background-position: center;
-    background-size: cover;
-    min-height: 500px;
-}
-
-.hero-5 {
-    background-image: url(../assets/images/contact.png);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-    z-index: 2;
-}
-
-.hero-text-5 {
-    font-family: "Montserrat" !important;
-    font-weight: bold !important;
-}
-
-
-
-.footer-top {
-    padding-top: 90px;
-    padding-bottom: 90px;
-    background-color: var(--dark);
-}
-
-.footer-top a {
-    color: var(--body);
-}
-
-.footer-top a:hover {
-    color: var(--white);
-}
-
-.footer-bottom {
-    background-color: #242933;
+.area-of-business-header {
+    font-size: 5rem;
 }
