@@ -32,27 +32,27 @@ a {
 }
 
 .hero {
-    background-image: url(../assets/images/image1.svg);
+    background-image: url(../assets/images/thumbnail_A351EABA-940B-4576-9B5A-FDF7A51F74AD.jpg);
     background-position: center;
     background-size: cover;
 }
 
 .why-choose-us {
-    background-image: url(../assets/images/image4.svg);
+    background-image: url(../assets/images/thumbnail_Elaboração\ de\ Programas\ de\ SST\,\ Gerenciamento\ do\ envio\ dos\ eventos\ no\ E-SOCIAL\,\ Laudos\ Técnicos\ de\ NR-11\,\ NR-12\ e\ NR-13\,\ e\ Projetos\ de\ Engenharia\ Mecânica..jpg);
     background-position: center;
     background-size: cover;
 }
 
 
 .who-we-are {
-    background-image: url(../assets/images/about_us.png);
+    background-image: url(../assets/images/WhatsApp\ Image\ 2024-02-16\ at\ 20.07.16.jpeg);
     background-position: center;
     background-size: cover;
 }
 
 
 .area-of-business {
-    background-image: url(../assets/images/image4.svg);
+    background-image: url(../assets/images/thumbnail_Elaboração\ de\ Programas\ de\ SST\,\ Gerenciamento\ do\ envio\ dos\ eventos\ no\ E-SOCIAL\,\ Laudos\ Técnicos\ de\ NR-11\,\ NR-12\ e\ NR-13\,\ e\ Projetos\ de\ Engenharia\ Mecânica..jpg);
     background-position: center;
     background-size: cover;
 }
@@ -74,7 +74,7 @@ a {
   }
 
 .contact-us {
-    background-image: url(../assets/images/image2.svg);
+    background-image: url(../assets/images/thumbnail_055CE641-5EF7-4261-AFD3-2E939484DA72.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -305,9 +305,9 @@ a {
     border-radius: 4px;
   }
   
-  .contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type=submit]:hover {
     background: rgba(var(--accent-color-rgb), 0.8);
-  }
+}
   
   @keyframes animate-loading {
     0% {
@@ -318,3 +318,35 @@ a {
       transform: rotate(360deg);
     }
   }
+
+ /* Clients Section - Home Page
+------------------------------*/
+.clients {
+  padding: 10px 0;
+}
+
+.clients .client-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.clients .client-logo img {
+  padding: 40px;
+  max-width: 80%;
+  transition: 0.3s;
+  opacity: 0.5;
+  filter: grayscale(100);
+}
+
+.clients .client-logo img:hover {
+  filter: none;
+  opacity: 1;
+}
+
+@media (max-width: 640px) {
+  .clients .client-logo img {
+    padding: 20px;
+  }
+}
