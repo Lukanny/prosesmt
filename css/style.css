@@ -9,8 +9,8 @@
 }
 
 body {
-    text-transform: uppercase;
     font-family: "Montserrat" !important;
+    font-weight: 700 !important
 }
 
 a {
@@ -142,6 +142,14 @@ a {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.section-header {
+  color: #012970;
+}
+
+.contact {
+  background-color: #fafbff;
+}
+
 .contact .info-box {
   color: #444444;
   background: #fafbff;
@@ -263,6 +271,10 @@ a {
 ------------------------------*/
 .clients {
   padding: 10px 0;
+}
+
+.clients-header {
+  color: #012970;
 }
 
 .clients .client-logo {
