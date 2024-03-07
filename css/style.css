@@ -134,10 +134,14 @@ a {
 }
 
 @media(max-width: 576px) { 
-    .extra-small { 
-      display: none; 
-    }
+  .extra-small { 
+    display: none; 
   }
+}
+
+.dropdown-item {
+  white-space: normal !important;
+}
 
 /*--------------------------------------------------------------
 # Contact
