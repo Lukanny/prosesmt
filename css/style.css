@@ -40,19 +40,6 @@ a {
     background-image: url(../assets/images/hero.jpg);
     background-position: center;
     background-size: cover;
-    position: relative;
-    z-index: 2;
-}
-
-.hero::after {
-  content: "";
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(4, 3, 24, 0.8);
-  z-index: -1;
 }
 
 .why-choose-us {
@@ -118,6 +105,22 @@ a {
   height: 480px;
 }
 
+.our-team{
+  background-image: url(../assets/images/plano_de_fundo.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.our-team-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.our-team-p {
+font-weight: 700 !important;
+}
+
+
 @media(max-width: 1024px) { 
   .small { 
       display: none; 
@@ -147,6 +150,7 @@ a {
 ------------------------------*/
 .clients {
   padding: 10px 0;
+  background-color: #fafbff;
 }
 
 .clients-header {
