@@ -105,6 +105,22 @@ a {
   height: 480px;
 }
 
+.our-team{
+  background-image: url(../assets/images/plano_de_fundo.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.our-team-text {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.our-team-p {
+font-weight: 700 !important;
+}
+
+
 @media(max-width: 1024px) { 
   .small { 
       display: none; 
